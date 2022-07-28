@@ -28,22 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.PedroTextBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // PedroTextBox1
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(7, 7);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(236, 20);
-            this.textBox1.TabIndex = 0;
+            this.PedroTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.PedroTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PedroTextBox1.Location = new System.Drawing.Point(7, 7);
+            this.PedroTextBox1.Name = "PedroTextBox1";
+            this.PedroTextBox1.Size = new System.Drawing.Size(236, 20);
+            this.PedroTextBox1.TabIndex = 0;
+            this.PedroTextBox1.Enter += new System.EventHandler(this.PedroTextBox1_Enter_1);
+            this.PedroTextBox1.Leave += new System.EventHandler(this.PedroTextBox1_Leave);
             // 
             // PedroTextBox
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.PedroTextBox1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PedroTextBox";
             this.Padding = new System.Windows.Forms.Padding(7);
@@ -55,6 +57,6 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox PedroTextBox1;
     }
 }
