@@ -9,6 +9,52 @@ public class PedroButtom : Button
     private int borderRadius = 40;
     private Color borderColor = Color.PaleVioletRed;
 
+    // Properties
+    public int BorderSize
+    {
+        get { return borderSize; }
+        set 
+        {
+            borderSize = value;
+            Invalidate();
+        }
+    }
+
+    public int BorderRadius
+    {
+        get { return borderRadius; }
+        set
+        {
+            if (value <= Height)
+                borderRadius = value;
+            else
+                borderRadius = Height;
+            Invalidate();
+        }
+    }
+
+    public Color BorderColor
+    {
+        get { return borderColor; }
+        set
+        {
+            borderColor = value;
+            Invalidate();
+        }
+    }
+
+    public Color BackGroundColor
+    {
+        get { return BackColor; }
+        set { BackColor = value; }
+    }
+
+    public Color TextColor
+    {
+        get { return ForeColor; }
+        set { ForeColor = value; }
+    }
+
     // Constructor
     public PedroButtom()
     {
@@ -17,9 +63,11 @@ public class PedroButtom : Button
         Size = new Size(150, 40);
         BackColor = Color.MediumSlateBlue;
         ForeColor = Color.White;
+        Resize += new EventHandler(Button_Resize);
     }
 
     // Methods
+
     private GraphicsPath GetFigurePath(RectangleF rect, float radius)
     {
         GraphicsPath path = new GraphicsPath();
@@ -41,9 +89,53 @@ public class PedroButtom : Button
         RectangleF rectSurface = new RectangleF(0, 0, Width, Height);
         RectangleF rectBorder = new RectangleF(1, 1, Width - 0.8F, Height - 1);
 
-        if (borderRadius > 2)
+        if (BorderRadius > 2)
         {
-            using (GraphicsPath pathSurface)
+            using (GraphicsPath pathSurface = GetFigurePath(rectSurface, BorderRadius))
+            using (GraphicsPath pathBorder = GetFigurePath(rectBorder, BorderRadius - 1F))
+            using (Pen penSurface = new Pen(Parent.BackColor, 2))
+            using (Pen penBorder = new Pen(BorderColor, BorderSize))
+            {
+                penBorder.Alignment = PenAlignment.Inset;
+                // Button surface
+                Region = new Region(pathSurface);
+
+                pevent.Graphics.DrawPath(penSurface, pathSurface);
+
+                // Button border
+                if (BorderSize >= 1)
+                    pevent.Graphics.DrawPath(penBorder, pathBorder);
+            }
         }
+        else
+        {
+            Region = new Region(rectSurface);
+            if (BorderSize >= 1)
+            {
+                using (Pen penBorder = new Pen(BorderColor, BorderSize))
+                {
+                    penBorder.Alignment = PenAlignment.Inset;
+                    pevent.Graphics.DrawRectangle(penBorder, 0, 0, Width - 1, Height - 1);
+                }
+            }
+        }
+    }
+
+    protected override void OnHandleCreated(EventArgs e)
+    {
+        base.OnHandleCreated(e);
+        Parent.BackColorChanged += new EventHandler(Container_BackColorChanged);
+    }
+
+    private void Container_BackColorChanged(object sender, EventArgs e)
+    {
+        if (DesignMode)
+            Invalidate();
+    }
+
+    private void Button_Resize(object? sender, EventArgs e)
+    {
+        if (borderRadius > Height)
+            BorderRadius = Height;
     }
 }
