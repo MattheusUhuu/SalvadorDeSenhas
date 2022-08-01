@@ -31,10 +31,10 @@ partial class Form1
             this.panelSuperior = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panelLeft = new System.Windows.Forms.Panel();
-            this.Cadastrar_btnInicio = new SalvadorDeSenhas.PedroControls.PedroButtom();
+            this.btnPainelMudarSenha = new SalvadorDeSenhas.PedroControls.PedroButtom();
+            this.btnPainelProcurarSite = new SalvadorDeSenhas.PedroControls.PedroButtom();
+            this.btnPainelCadastrarSite = new SalvadorDeSenhas.PedroControls.PedroButtom();
             this.panelCentral = new System.Windows.Forms.Panel();
-            this.Procurar_btnInicio = new SalvadorDeSenhas.PedroControls.PedroButtom();
-            this.pedroButtom1 = new SalvadorDeSenhas.PedroControls.PedroButtom();
             this.panelSuperior.SuspendLayout();
             this.panelLeft.SuspendLayout();
             this.SuspendLayout();
@@ -62,83 +62,85 @@ partial class Form1
             // panelLeft
             // 
             this.panelLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(13)))), ((int)(((byte)(117)))));
-            this.panelLeft.Controls.Add(this.pedroButtom1);
-            this.panelLeft.Controls.Add(this.Procurar_btnInicio);
-            this.panelLeft.Controls.Add(this.Cadastrar_btnInicio);
+            this.panelLeft.Controls.Add(this.btnPainelMudarSenha);
+            this.panelLeft.Controls.Add(this.btnPainelProcurarSite);
+            this.panelLeft.Controls.Add(this.btnPainelCadastrarSite);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeft.Location = new System.Drawing.Point(0, 70);
             this.panelLeft.Name = "panelLeft";
             this.panelLeft.Size = new System.Drawing.Size(223, 444);
             this.panelLeft.TabIndex = 1;
             // 
-            // Cadastrar_btnInicio
+            // btnPainelMudarSenha
             // 
-            this.Cadastrar_btnInicio.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.Cadastrar_btnInicio.BackGroundColor = System.Drawing.Color.MediumSlateBlue;
-            this.Cadastrar_btnInicio.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.Cadastrar_btnInicio.BorderRadius = 10;
-            this.Cadastrar_btnInicio.BorderSize = 0;
-            this.Cadastrar_btnInicio.FlatAppearance.BorderSize = 0;
-            this.Cadastrar_btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Cadastrar_btnInicio.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Cadastrar_btnInicio.ForeColor = System.Drawing.Color.PeachPuff;
-            this.Cadastrar_btnInicio.Location = new System.Drawing.Point(33, 65);
-            this.Cadastrar_btnInicio.Margin = new System.Windows.Forms.Padding(28, 3, 29, 3);
-            this.Cadastrar_btnInicio.Name = "Cadastrar_btnInicio";
-            this.Cadastrar_btnInicio.Size = new System.Drawing.Size(158, 59);
-            this.Cadastrar_btnInicio.TabIndex = 0;
-            this.Cadastrar_btnInicio.Text = "Cadastrar";
-            this.Cadastrar_btnInicio.TextColor = System.Drawing.Color.PeachPuff;
-            this.Cadastrar_btnInicio.UseVisualStyleBackColor = false;
+            this.btnPainelMudarSenha.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnPainelMudarSenha.BackGroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnPainelMudarSenha.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnPainelMudarSenha.BorderRadius = 10;
+            this.btnPainelMudarSenha.BorderSize = 0;
+            this.btnPainelMudarSenha.FlatAppearance.BorderSize = 0;
+            this.btnPainelMudarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPainelMudarSenha.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPainelMudarSenha.ForeColor = System.Drawing.Color.PeachPuff;
+            this.btnPainelMudarSenha.Location = new System.Drawing.Point(33, 269);
+            this.btnPainelMudarSenha.Margin = new System.Windows.Forms.Padding(28, 40, 29, 3);
+            this.btnPainelMudarSenha.Name = "btnPainelMudarSenha";
+            this.btnPainelMudarSenha.Size = new System.Drawing.Size(158, 59);
+            this.btnPainelMudarSenha.TabIndex = 2;
+            this.btnPainelMudarSenha.Text = "Mudar Senha";
+            this.btnPainelMudarSenha.TextColor = System.Drawing.Color.PeachPuff;
+            this.btnPainelMudarSenha.UseVisualStyleBackColor = false;
+            this.btnPainelMudarSenha.Click += new System.EventHandler(this.btnPainelMudarSenha_Click);
+            // 
+            // btnPainelProcurarSite
+            // 
+            this.btnPainelProcurarSite.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnPainelProcurarSite.BackGroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnPainelProcurarSite.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnPainelProcurarSite.BorderRadius = 10;
+            this.btnPainelProcurarSite.BorderSize = 0;
+            this.btnPainelProcurarSite.FlatAppearance.BorderSize = 0;
+            this.btnPainelProcurarSite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPainelProcurarSite.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPainelProcurarSite.ForeColor = System.Drawing.Color.PeachPuff;
+            this.btnPainelProcurarSite.Location = new System.Drawing.Point(33, 167);
+            this.btnPainelProcurarSite.Margin = new System.Windows.Forms.Padding(28, 40, 29, 3);
+            this.btnPainelProcurarSite.Name = "btnPainelProcurarSite";
+            this.btnPainelProcurarSite.Size = new System.Drawing.Size(158, 59);
+            this.btnPainelProcurarSite.TabIndex = 1;
+            this.btnPainelProcurarSite.Text = "Procurar Site";
+            this.btnPainelProcurarSite.TextColor = System.Drawing.Color.PeachPuff;
+            this.btnPainelProcurarSite.UseVisualStyleBackColor = false;
+            this.btnPainelProcurarSite.Click += new System.EventHandler(this.btnPainelProcurarSite_Click);
+            // 
+            // btnPainelCadastrarSite
+            // 
+            this.btnPainelCadastrarSite.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnPainelCadastrarSite.BackGroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnPainelCadastrarSite.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnPainelCadastrarSite.BorderRadius = 10;
+            this.btnPainelCadastrarSite.BorderSize = 0;
+            this.btnPainelCadastrarSite.FlatAppearance.BorderSize = 0;
+            this.btnPainelCadastrarSite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPainelCadastrarSite.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPainelCadastrarSite.ForeColor = System.Drawing.Color.PeachPuff;
+            this.btnPainelCadastrarSite.Location = new System.Drawing.Point(33, 65);
+            this.btnPainelCadastrarSite.Margin = new System.Windows.Forms.Padding(28, 3, 29, 3);
+            this.btnPainelCadastrarSite.Name = "btnPainelCadastrarSite";
+            this.btnPainelCadastrarSite.Size = new System.Drawing.Size(158, 59);
+            this.btnPainelCadastrarSite.TabIndex = 0;
+            this.btnPainelCadastrarSite.Text = "Cadastrar";
+            this.btnPainelCadastrarSite.TextColor = System.Drawing.Color.PeachPuff;
+            this.btnPainelCadastrarSite.UseVisualStyleBackColor = false;
+            this.btnPainelCadastrarSite.Click += new System.EventHandler(this.btnPainelCadastrarSite_Click);
             // 
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
-            this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCentral.Location = new System.Drawing.Point(223, 70);
             this.panelCentral.Name = "panelCentral";
             this.panelCentral.Size = new System.Drawing.Size(699, 444);
             this.panelCentral.TabIndex = 2;
-            // 
-            // Procurar_btnInicio
-            // 
-            this.Procurar_btnInicio.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.Procurar_btnInicio.BackGroundColor = System.Drawing.Color.MediumSlateBlue;
-            this.Procurar_btnInicio.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.Procurar_btnInicio.BorderRadius = 10;
-            this.Procurar_btnInicio.BorderSize = 0;
-            this.Procurar_btnInicio.FlatAppearance.BorderSize = 0;
-            this.Procurar_btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Procurar_btnInicio.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Procurar_btnInicio.ForeColor = System.Drawing.Color.PeachPuff;
-            this.Procurar_btnInicio.Location = new System.Drawing.Point(33, 167);
-            this.Procurar_btnInicio.Margin = new System.Windows.Forms.Padding(28, 40, 29, 3);
-            this.Procurar_btnInicio.Name = "Procurar_btnInicio";
-            this.Procurar_btnInicio.Size = new System.Drawing.Size(158, 59);
-            this.Procurar_btnInicio.TabIndex = 1;
-            this.Procurar_btnInicio.Text = "Procurar Site";
-            this.Procurar_btnInicio.TextColor = System.Drawing.Color.PeachPuff;
-            this.Procurar_btnInicio.UseVisualStyleBackColor = false;
-            // 
-            // pedroButtom1
-            // 
-            this.pedroButtom1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.pedroButtom1.BackGroundColor = System.Drawing.Color.MediumSlateBlue;
-            this.pedroButtom1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.pedroButtom1.BorderRadius = 10;
-            this.pedroButtom1.BorderSize = 0;
-            this.pedroButtom1.FlatAppearance.BorderSize = 0;
-            this.pedroButtom1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pedroButtom1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.pedroButtom1.ForeColor = System.Drawing.Color.PeachPuff;
-            this.pedroButtom1.Location = new System.Drawing.Point(33, 269);
-            this.pedroButtom1.Margin = new System.Windows.Forms.Padding(28, 40, 29, 3);
-            this.pedroButtom1.Name = "pedroButtom1";
-            this.pedroButtom1.Size = new System.Drawing.Size(158, 59);
-            this.pedroButtom1.TabIndex = 2;
-            this.pedroButtom1.Text = "Mudar Senha";
-            this.pedroButtom1.TextColor = System.Drawing.Color.PeachPuff;
-            this.pedroButtom1.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -152,6 +154,7 @@ partial class Form1
             this.Controls.Add(this.panelSuperior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panelSuperior.ResumeLayout(false);
             this.panelSuperior.PerformLayout();
@@ -166,7 +169,7 @@ partial class Form1
     private Panel panelLeft;
     private Panel panelCentral;
     private Label label1;
-    private PedroControls.PedroButtom Cadastrar_btnInicio;
-    private PedroControls.PedroButtom pedroButtom1;
-    private PedroControls.PedroButtom Procurar_btnInicio;
+    private PedroControls.PedroButtom btnPainelCadastrarSite;
+    private PedroControls.PedroButtom btnPainelMudarSenha;
+    private PedroControls.PedroButtom btnPainelProcurarSite;
 }
