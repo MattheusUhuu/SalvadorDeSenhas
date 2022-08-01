@@ -6,6 +6,28 @@ public partial class Form1 : Form
     {
         InitializeComponent();
 
+        // Cria uma pasta e um arquivo txt caso não exista um
+        string arquivo = "";
+        arquivo = Path.GetFullPath(Global.ArquivoTxt);
+
+        FileStream fileInfo = null;
+        try
+        {
+            if (!File.Exists(arquivo))
+            {
+                Directory.CreateDirectory(Global.Pasta);
+                fileInfo = new FileStream(Global.ArquivoTxt, FileMode.CreateNew);
+            }
+        }
+        catch (Exception)
+        {
+            throw;
+        }
+        finally
+        {
+            if (fileInfo != null) fileInfo.Close();
+        }
+
         CadastrarSiteForm cadastrarSite = new CadastrarSiteForm();
         cadastrarSite.TopLevel = false;
         cadastrarSite.Dock = DockStyle.Fill;

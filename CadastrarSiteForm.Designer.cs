@@ -122,6 +122,7 @@
             this.checkBoxCaracteresEspeciais_FormCadastrar.Name = "checkBoxCaracteresEspeciais_FormCadastrar";
             this.checkBoxCaracteresEspeciais_FormCadastrar.Size = new System.Drawing.Size(71, 25);
             this.checkBoxCaracteresEspeciais_FormCadastrar.TabIndex = 4;
+            this.checkBoxCaracteresEspeciais_FormCadastrar.Tag = "!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_";
             this.checkBoxCaracteresEspeciais_FormCadastrar.Text = "@#%";
             this.checkBoxCaracteresEspeciais_FormCadastrar.UseVisualStyleBackColor = true;
             // 
@@ -134,6 +135,7 @@
             this.checkBoxMaiusculas_FormCadastrar.Name = "checkBoxMaiusculas_FormCadastrar";
             this.checkBoxMaiusculas_FormCadastrar.Size = new System.Drawing.Size(61, 25);
             this.checkBoxMaiusculas_FormCadastrar.TabIndex = 5;
+            this.checkBoxMaiusculas_FormCadastrar.Tag = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             this.checkBoxMaiusculas_FormCadastrar.Text = "ABC";
             this.checkBoxMaiusculas_FormCadastrar.UseVisualStyleBackColor = true;
             // 
@@ -146,6 +148,7 @@
             this.checkBoxMinusculas_FormCadastrar.Name = "checkBoxMinusculas_FormCadastrar";
             this.checkBoxMinusculas_FormCadastrar.Size = new System.Drawing.Size(57, 25);
             this.checkBoxMinusculas_FormCadastrar.TabIndex = 6;
+            this.checkBoxMinusculas_FormCadastrar.Tag = "abcdefghijklmnopqrstuvwxyz";
             this.checkBoxMinusculas_FormCadastrar.Text = "abc";
             this.checkBoxMinusculas_FormCadastrar.UseVisualStyleBackColor = true;
             // 
