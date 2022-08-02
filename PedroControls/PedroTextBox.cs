@@ -159,6 +159,12 @@ public partial class PedroTextBox : UserControl
     }
 
     // Overridden methods
+    public void Clear()
+    {
+        PedroTextBox1.Clear();
+        SetPlaceholder();
+    }
+
     private void SetPlaceholder()
     {
         if (string.IsNullOrWhiteSpace(PedroTextBox1.Text) && placeholderText != "")

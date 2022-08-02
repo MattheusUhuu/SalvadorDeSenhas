@@ -36,8 +36,8 @@ public class Contas
             using (StreamWriter sw = File.AppendText(Global.ArquivoTxt))
             {
                 sw.Write(contas.NomeDoSite.ToUpper() + ";");
-                sw.Write(contas.UrlDoSite.ToUpper() + ";");
-                sw.Write(contas.Senha);
+                sw.Write(contas.UrlDoSite + ";");
+                sw.WriteLine(contas.Senha);
 
                 return contas;
             }

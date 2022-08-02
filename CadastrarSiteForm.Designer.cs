@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.cadastrarSiteLabel = new System.Windows.Forms.Label();
-            this.pedroTxtNomeDeCadastro = new SalvadorDeSenhas.PedroControls.PedroTextBox();
-            this.pedroTxtUrlCadastroSite = new SalvadorDeSenhas.PedroControls.PedroTextBox();
-            this.pedroTxtSenhaCadastro = new SalvadorDeSenhas.PedroControls.PedroTextBox();
+            this.txtNomeDeCadastro = new SalvadorDeSenhas.PedroControls.PedroTextBox();
+            this.txtUrlCadastro = new SalvadorDeSenhas.PedroControls.PedroTextBox();
+            this.txtSenhaCadastro = new SalvadorDeSenhas.PedroControls.PedroTextBox();
             this.checkBoxCaracteresEspeciais_FormCadastrar = new System.Windows.Forms.CheckBox();
             this.checkBoxMaiusculas_FormCadastrar = new System.Windows.Forms.CheckBox();
             this.checkBoxMinusculas_FormCadastrar = new System.Windows.Forms.CheckBox();
@@ -52,66 +52,66 @@
             this.cadastrarSiteLabel.Text = "Cadastrar novo site";
             this.cadastrarSiteLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pedroTxtNomeDeCadastro
+            // txtNomeDeCadastro
             // 
-            this.pedroTxtNomeDeCadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
-            this.pedroTxtNomeDeCadastro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pedroTxtNomeDeCadastro.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.pedroTxtNomeDeCadastro.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.pedroTxtNomeDeCadastro.BorderSize = 4;
-            this.pedroTxtNomeDeCadastro.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.pedroTxtNomeDeCadastro.ForeColor = System.Drawing.Color.Gray;
-            this.pedroTxtNomeDeCadastro.Location = new System.Drawing.Point(197, 103);
-            this.pedroTxtNomeDeCadastro.Margin = new System.Windows.Forms.Padding(186, 50, 185, 4);
-            this.pedroTxtNomeDeCadastro.Multiline = false;
-            this.pedroTxtNomeDeCadastro.Name = "pedroTxtNomeDeCadastro";
-            this.pedroTxtNomeDeCadastro.Padding = new System.Windows.Forms.Padding(7);
-            this.pedroTxtNomeDeCadastro.PasswordChar = false;
-            this.pedroTxtNomeDeCadastro.PlaceholderText = "Informe o nome do site";
-            this.pedroTxtNomeDeCadastro.Size = new System.Drawing.Size(312, 37);
-            this.pedroTxtNomeDeCadastro.TabIndex = 1;
-            this.pedroTxtNomeDeCadastro.Texts = "";
-            this.pedroTxtNomeDeCadastro.UnderlinedStyle = true;
+            this.txtNomeDeCadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
+            this.txtNomeDeCadastro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtNomeDeCadastro.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.txtNomeDeCadastro.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtNomeDeCadastro.BorderSize = 4;
+            this.txtNomeDeCadastro.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.txtNomeDeCadastro.ForeColor = System.Drawing.Color.Gray;
+            this.txtNomeDeCadastro.Location = new System.Drawing.Point(197, 103);
+            this.txtNomeDeCadastro.Margin = new System.Windows.Forms.Padding(186, 50, 185, 4);
+            this.txtNomeDeCadastro.Multiline = false;
+            this.txtNomeDeCadastro.Name = "txtNomeDeCadastro";
+            this.txtNomeDeCadastro.Padding = new System.Windows.Forms.Padding(7);
+            this.txtNomeDeCadastro.PasswordChar = false;
+            this.txtNomeDeCadastro.PlaceholderText = "Informe o nome do site";
+            this.txtNomeDeCadastro.Size = new System.Drawing.Size(312, 37);
+            this.txtNomeDeCadastro.TabIndex = 1;
+            this.txtNomeDeCadastro.Texts = "";
+            this.txtNomeDeCadastro.UnderlinedStyle = true;
             // 
-            // pedroTxtUrlCadastroSite
+            // txtUrlCadastro
             // 
-            this.pedroTxtUrlCadastroSite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
-            this.pedroTxtUrlCadastroSite.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.pedroTxtUrlCadastroSite.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.pedroTxtUrlCadastroSite.BorderSize = 4;
-            this.pedroTxtUrlCadastroSite.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.pedroTxtUrlCadastroSite.ForeColor = System.Drawing.Color.Gray;
-            this.pedroTxtUrlCadastroSite.Location = new System.Drawing.Point(197, 194);
-            this.pedroTxtUrlCadastroSite.Margin = new System.Windows.Forms.Padding(4, 50, 4, 4);
-            this.pedroTxtUrlCadastroSite.Multiline = false;
-            this.pedroTxtUrlCadastroSite.Name = "pedroTxtUrlCadastroSite";
-            this.pedroTxtUrlCadastroSite.Padding = new System.Windows.Forms.Padding(7);
-            this.pedroTxtUrlCadastroSite.PasswordChar = false;
-            this.pedroTxtUrlCadastroSite.PlaceholderText = "Informe o link do site";
-            this.pedroTxtUrlCadastroSite.Size = new System.Drawing.Size(312, 37);
-            this.pedroTxtUrlCadastroSite.TabIndex = 2;
-            this.pedroTxtUrlCadastroSite.Texts = "";
-            this.pedroTxtUrlCadastroSite.UnderlinedStyle = true;
+            this.txtUrlCadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
+            this.txtUrlCadastro.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.txtUrlCadastro.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtUrlCadastro.BorderSize = 4;
+            this.txtUrlCadastro.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.txtUrlCadastro.ForeColor = System.Drawing.Color.Gray;
+            this.txtUrlCadastro.Location = new System.Drawing.Point(197, 194);
+            this.txtUrlCadastro.Margin = new System.Windows.Forms.Padding(4, 50, 4, 4);
+            this.txtUrlCadastro.Multiline = false;
+            this.txtUrlCadastro.Name = "txtUrlCadastro";
+            this.txtUrlCadastro.Padding = new System.Windows.Forms.Padding(7);
+            this.txtUrlCadastro.PasswordChar = false;
+            this.txtUrlCadastro.PlaceholderText = "Informe o link do site";
+            this.txtUrlCadastro.Size = new System.Drawing.Size(312, 37);
+            this.txtUrlCadastro.TabIndex = 2;
+            this.txtUrlCadastro.Texts = "";
+            this.txtUrlCadastro.UnderlinedStyle = true;
             // 
-            // pedroTxtSenhaCadastro
+            // txtSenhaCadastro
             // 
-            this.pedroTxtSenhaCadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
-            this.pedroTxtSenhaCadastro.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.pedroTxtSenhaCadastro.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.pedroTxtSenhaCadastro.BorderSize = 4;
-            this.pedroTxtSenhaCadastro.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.pedroTxtSenhaCadastro.ForeColor = System.Drawing.Color.Gray;
-            this.pedroTxtSenhaCadastro.Location = new System.Drawing.Point(197, 285);
-            this.pedroTxtSenhaCadastro.Margin = new System.Windows.Forms.Padding(4, 50, 4, 4);
-            this.pedroTxtSenhaCadastro.Multiline = false;
-            this.pedroTxtSenhaCadastro.Name = "pedroTxtSenhaCadastro";
-            this.pedroTxtSenhaCadastro.Padding = new System.Windows.Forms.Padding(7);
-            this.pedroTxtSenhaCadastro.PasswordChar = true;
-            this.pedroTxtSenhaCadastro.PlaceholderText = "Digite uma senha";
-            this.pedroTxtSenhaCadastro.Size = new System.Drawing.Size(312, 37);
-            this.pedroTxtSenhaCadastro.TabIndex = 3;
-            this.pedroTxtSenhaCadastro.Texts = "";
-            this.pedroTxtSenhaCadastro.UnderlinedStyle = true;
+            this.txtSenhaCadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
+            this.txtSenhaCadastro.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.txtSenhaCadastro.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtSenhaCadastro.BorderSize = 4;
+            this.txtSenhaCadastro.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.txtSenhaCadastro.ForeColor = System.Drawing.Color.Gray;
+            this.txtSenhaCadastro.Location = new System.Drawing.Point(197, 285);
+            this.txtSenhaCadastro.Margin = new System.Windows.Forms.Padding(4, 50, 4, 4);
+            this.txtSenhaCadastro.Multiline = false;
+            this.txtSenhaCadastro.Name = "txtSenhaCadastro";
+            this.txtSenhaCadastro.Padding = new System.Windows.Forms.Padding(7);
+            this.txtSenhaCadastro.PasswordChar = false;
+            this.txtSenhaCadastro.PlaceholderText = "Digite uma senha";
+            this.txtSenhaCadastro.Size = new System.Drawing.Size(312, 37);
+            this.txtSenhaCadastro.TabIndex = 3;
+            this.txtSenhaCadastro.Texts = "";
+            this.txtSenhaCadastro.UnderlinedStyle = true;
             // 
             // checkBoxCaracteresEspeciais_FormCadastrar
             // 
@@ -170,6 +170,7 @@
             this.btnCadastrar_DoFormCadastrar.Text = "Cadastrar";
             this.btnCadastrar_DoFormCadastrar.TextColor = System.Drawing.Color.Black;
             this.btnCadastrar_DoFormCadastrar.UseVisualStyleBackColor = false;
+            this.btnCadastrar_DoFormCadastrar.Click += new System.EventHandler(this.btnCadastrar_DoFormCadastrar_Click);
             // 
             // btnGerarSenha_DoFormCadastrar
             // 
@@ -189,6 +190,7 @@
             this.btnGerarSenha_DoFormCadastrar.Text = "Gerar Senha";
             this.btnGerarSenha_DoFormCadastrar.TextColor = System.Drawing.Color.Black;
             this.btnGerarSenha_DoFormCadastrar.UseVisualStyleBackColor = false;
+            this.btnGerarSenha_DoFormCadastrar.Click += new System.EventHandler(this.btnGerarSenha_DoFormCadastrar_Click);
             // 
             // CadastrarSiteForm
             // 
@@ -201,9 +203,9 @@
             this.Controls.Add(this.checkBoxMinusculas_FormCadastrar);
             this.Controls.Add(this.checkBoxMaiusculas_FormCadastrar);
             this.Controls.Add(this.checkBoxCaracteresEspeciais_FormCadastrar);
-            this.Controls.Add(this.pedroTxtSenhaCadastro);
-            this.Controls.Add(this.pedroTxtUrlCadastroSite);
-            this.Controls.Add(this.pedroTxtNomeDeCadastro);
+            this.Controls.Add(this.txtSenhaCadastro);
+            this.Controls.Add(this.txtUrlCadastro);
+            this.Controls.Add(this.txtNomeDeCadastro);
             this.Controls.Add(this.cadastrarSiteLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CadastrarSiteForm";
@@ -216,13 +218,13 @@
         #endregion
 
         private Label cadastrarSiteLabel;
-        private PedroControls.PedroTextBox pedroTxtNomeDeCadastro;
-        private PedroControls.PedroTextBox pedroTxtUrlCadastroSite;
-        private PedroControls.PedroTextBox pedroTxtSenhaCadastro;
+        private PedroControls.PedroTextBox txtUrlCadastro;
+        private PedroControls.PedroTextBox txtSenhaCadastro;
         private CheckBox checkBoxCaracteresEspeciais_FormCadastrar;
         private CheckBox checkBoxMaiusculas_FormCadastrar;
         private CheckBox checkBoxMinusculas_FormCadastrar;
         private PedroControls.PedroButtom btnCadastrar_DoFormCadastrar;
         private PedroControls.PedroButtom btnGerarSenha_DoFormCadastrar;
+        private PedroControls.PedroTextBox txtNomeDeCadastro;
     }
 }
