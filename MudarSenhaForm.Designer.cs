@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.NomeTxt_DoAlterarSenhaForm = new SalvadorDeSenhas.PedroControls.PedroTextBox();
-            this.NovaSenhaTxt_DoAlterarSenhaForm = new SalvadorDeSenhas.PedroControls.PedroTextBox();
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm = new SalvadorDeSenhas.PedroControls.PedroTextBox();
-            this.MostrarSenhasCheckBox = new System.Windows.Forms.CheckBox();
-            this.CaracteresEspeciaisCheckBox_doAlterarSenhaForm = new System.Windows.Forms.CheckBox();
-            this.MaiusculasCheckBox_DoAlterarSenhaForm = new System.Windows.Forms.CheckBox();
-            this.MinusculasCheckBox_DoAlterarSenhaForm = new System.Windows.Forms.CheckBox();
-            this.AlterarSenhaBtn = new SalvadorDeSenhas.PedroControls.PedroButtom();
-            this.GerarSenhaBtn_DoAlterarSenhaForm = new SalvadorDeSenhas.PedroControls.PedroButtom();
+            this.txtNome_DoAlterarSenhaForm = new SalvadorDeSenhas.PedroControls.PedroTextBox();
+            this.txtNovaSenha_DoAlterarSenhaForm = new SalvadorDeSenhas.PedroControls.PedroTextBox();
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm = new SalvadorDeSenhas.PedroControls.PedroTextBox();
+            this.checkBoxMostrarSenhas_DoFormMudarSenha = new System.Windows.Forms.CheckBox();
+            this.checkBoxCaracteresEspeciais_doAlterarSenhaForm = new System.Windows.Forms.CheckBox();
+            this.checkBoxMaiusculas_DoAlterarSenhaForm = new System.Windows.Forms.CheckBox();
+            this.checkBoxMinusculas_DoAlterarSenhaForm = new System.Windows.Forms.CheckBox();
+            this.btnAlterarSenha = new SalvadorDeSenhas.PedroControls.PedroButtom();
+            this.btnGerarSenha_DoAlterarSenhaForm = new SalvadorDeSenhas.PedroControls.PedroButtom();
             this.SuspendLayout();
             // 
             // label1
@@ -52,151 +52,160 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Alterar Senha";
             // 
-            // NomeTxt_DoAlterarSenhaForm
+            // txtNome_DoAlterarSenhaForm
             // 
-            this.NomeTxt_DoAlterarSenhaForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
-            this.NomeTxt_DoAlterarSenhaForm.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.NomeTxt_DoAlterarSenhaForm.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.NomeTxt_DoAlterarSenhaForm.BorderSize = 4;
-            this.NomeTxt_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.NomeTxt_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.Gray;
-            this.NomeTxt_DoAlterarSenhaForm.Location = new System.Drawing.Point(195, 101);
-            this.NomeTxt_DoAlterarSenhaForm.Margin = new System.Windows.Forms.Padding(186, 50, 185, 4);
-            this.NomeTxt_DoAlterarSenhaForm.Multiline = false;
-            this.NomeTxt_DoAlterarSenhaForm.Name = "NomeTxt_DoAlterarSenhaForm";
-            this.NomeTxt_DoAlterarSenhaForm.Padding = new System.Windows.Forms.Padding(7);
-            this.NomeTxt_DoAlterarSenhaForm.PasswordChar = false;
-            this.NomeTxt_DoAlterarSenhaForm.PlaceholderText = "Digite o nome do site";
-            this.NomeTxt_DoAlterarSenhaForm.Size = new System.Drawing.Size(312, 37);
-            this.NomeTxt_DoAlterarSenhaForm.TabIndex = 1;
-            this.NomeTxt_DoAlterarSenhaForm.Texts = "";
-            this.NomeTxt_DoAlterarSenhaForm.UnderlinedStyle = true;
+            this.txtNome_DoAlterarSenhaForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
+            this.txtNome_DoAlterarSenhaForm.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.txtNome_DoAlterarSenhaForm.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtNome_DoAlterarSenhaForm.BorderSize = 4;
+            this.txtNome_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.txtNome_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.Gray;
+            this.txtNome_DoAlterarSenhaForm.Location = new System.Drawing.Point(195, 101);
+            this.txtNome_DoAlterarSenhaForm.Margin = new System.Windows.Forms.Padding(186, 50, 185, 4);
+            this.txtNome_DoAlterarSenhaForm.Multiline = false;
+            this.txtNome_DoAlterarSenhaForm.Name = "txtNome_DoAlterarSenhaForm";
+            this.txtNome_DoAlterarSenhaForm.Padding = new System.Windows.Forms.Padding(7);
+            this.txtNome_DoAlterarSenhaForm.PasswordChar = false;
+            this.txtNome_DoAlterarSenhaForm.PlaceholderText = "Digite o nome do site";
+            this.txtNome_DoAlterarSenhaForm.Size = new System.Drawing.Size(312, 37);
+            this.txtNome_DoAlterarSenhaForm.TabIndex = 1;
+            this.txtNome_DoAlterarSenhaForm.Texts = "";
+            this.txtNome_DoAlterarSenhaForm.UnderlinedStyle = true;
             // 
-            // NovaSenhaTxt_DoAlterarSenhaForm
+            // txtNovaSenha_DoAlterarSenhaForm
             // 
-            this.NovaSenhaTxt_DoAlterarSenhaForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
-            this.NovaSenhaTxt_DoAlterarSenhaForm.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.NovaSenhaTxt_DoAlterarSenhaForm.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.NovaSenhaTxt_DoAlterarSenhaForm.BorderSize = 4;
-            this.NovaSenhaTxt_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.NovaSenhaTxt_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.Gray;
-            this.NovaSenhaTxt_DoAlterarSenhaForm.Location = new System.Drawing.Point(195, 192);
-            this.NovaSenhaTxt_DoAlterarSenhaForm.Margin = new System.Windows.Forms.Padding(186, 50, 185, 4);
-            this.NovaSenhaTxt_DoAlterarSenhaForm.Multiline = false;
-            this.NovaSenhaTxt_DoAlterarSenhaForm.Name = "NovaSenhaTxt_DoAlterarSenhaForm";
-            this.NovaSenhaTxt_DoAlterarSenhaForm.Padding = new System.Windows.Forms.Padding(7);
-            this.NovaSenhaTxt_DoAlterarSenhaForm.PasswordChar = false;
-            this.NovaSenhaTxt_DoAlterarSenhaForm.PlaceholderText = "Informe uma nova senha";
-            this.NovaSenhaTxt_DoAlterarSenhaForm.Size = new System.Drawing.Size(312, 37);
-            this.NovaSenhaTxt_DoAlterarSenhaForm.TabIndex = 2;
-            this.NovaSenhaTxt_DoAlterarSenhaForm.Texts = "";
-            this.NovaSenhaTxt_DoAlterarSenhaForm.UnderlinedStyle = true;
+            this.txtNovaSenha_DoAlterarSenhaForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
+            this.txtNovaSenha_DoAlterarSenhaForm.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.txtNovaSenha_DoAlterarSenhaForm.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtNovaSenha_DoAlterarSenhaForm.BorderSize = 4;
+            this.txtNovaSenha_DoAlterarSenhaForm.Enabled = false;
+            this.txtNovaSenha_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.txtNovaSenha_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.Gray;
+            this.txtNovaSenha_DoAlterarSenhaForm.Location = new System.Drawing.Point(195, 192);
+            this.txtNovaSenha_DoAlterarSenhaForm.Margin = new System.Windows.Forms.Padding(186, 50, 185, 4);
+            this.txtNovaSenha_DoAlterarSenhaForm.Multiline = false;
+            this.txtNovaSenha_DoAlterarSenhaForm.Name = "txtNovaSenha_DoAlterarSenhaForm";
+            this.txtNovaSenha_DoAlterarSenhaForm.Padding = new System.Windows.Forms.Padding(7);
+            this.txtNovaSenha_DoAlterarSenhaForm.PasswordChar = false;
+            this.txtNovaSenha_DoAlterarSenhaForm.PlaceholderText = "Informe uma nova senha";
+            this.txtNovaSenha_DoAlterarSenhaForm.Size = new System.Drawing.Size(312, 37);
+            this.txtNovaSenha_DoAlterarSenhaForm.TabIndex = 2;
+            this.txtNovaSenha_DoAlterarSenhaForm.Texts = "";
+            this.txtNovaSenha_DoAlterarSenhaForm.UnderlinedStyle = true;
             // 
-            // ConfirmarNovaSenhaTxt_DoAlterarSenhaForm
+            // txtConfirmarNovaSenha_DoAlterarSenhaForm
             // 
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.BorderSize = 4;
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.Gray;
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.Location = new System.Drawing.Point(195, 283);
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.Margin = new System.Windows.Forms.Padding(186, 50, 185, 4);
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.Multiline = false;
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.Name = "ConfirmarNovaSenhaTxt_DoAlterarSenhaForm";
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.Padding = new System.Windows.Forms.Padding(7);
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.PasswordChar = false;
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.PlaceholderText = "Confirme a nova senha";
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.Size = new System.Drawing.Size(312, 37);
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.TabIndex = 3;
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.Texts = "";
-            this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm.UnderlinedStyle = true;
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.BorderSize = 4;
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.Enabled = false;
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.Gray;
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.Location = new System.Drawing.Point(195, 283);
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.Margin = new System.Windows.Forms.Padding(186, 50, 185, 4);
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.Multiline = false;
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.Name = "txtConfirmarNovaSenha_DoAlterarSenhaForm";
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.Padding = new System.Windows.Forms.Padding(7);
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.PasswordChar = false;
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.PlaceholderText = "Confirme a nova senha";
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.Size = new System.Drawing.Size(312, 37);
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.TabIndex = 3;
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.Texts = "";
+            this.txtConfirmarNovaSenha_DoAlterarSenhaForm.UnderlinedStyle = true;
             // 
-            // MostrarSenhasCheckBox
+            // checkBoxMostrarSenhas_DoFormMudarSenha
             // 
-            this.MostrarSenhasCheckBox.AutoSize = true;
-            this.MostrarSenhasCheckBox.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.MostrarSenhasCheckBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.MostrarSenhasCheckBox.Location = new System.Drawing.Point(195, 327);
-            this.MostrarSenhasCheckBox.Name = "MostrarSenhasCheckBox";
-            this.MostrarSenhasCheckBox.Size = new System.Drawing.Size(186, 28);
-            this.MostrarSenhasCheckBox.TabIndex = 4;
-            this.MostrarSenhasCheckBox.Text = "Mostrar as Senhas";
-            this.MostrarSenhasCheckBox.UseVisualStyleBackColor = true;
+            this.checkBoxMostrarSenhas_DoFormMudarSenha.AutoSize = true;
+            this.checkBoxMostrarSenhas_DoFormMudarSenha.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.checkBoxMostrarSenhas_DoFormMudarSenha.ForeColor = System.Drawing.Color.DarkGray;
+            this.checkBoxMostrarSenhas_DoFormMudarSenha.Location = new System.Drawing.Point(195, 327);
+            this.checkBoxMostrarSenhas_DoFormMudarSenha.Name = "checkBoxMostrarSenhas_DoFormMudarSenha";
+            this.checkBoxMostrarSenhas_DoFormMudarSenha.Size = new System.Drawing.Size(186, 28);
+            this.checkBoxMostrarSenhas_DoFormMudarSenha.TabIndex = 4;
+            this.checkBoxMostrarSenhas_DoFormMudarSenha.Text = "Mostrar as Senhas";
+            this.checkBoxMostrarSenhas_DoFormMudarSenha.UseVisualStyleBackColor = true;
+            this.checkBoxMostrarSenhas_DoFormMudarSenha.CheckedChanged += new System.EventHandler(this.checkBoxMostrarSenhas_DoFormMudarSenha_CheckedChanged);
             // 
-            // CaracteresEspeciaisCheckBox_doAlterarSenhaForm
+            // checkBoxCaracteresEspeciais_doAlterarSenhaForm
             // 
-            this.CaracteresEspeciaisCheckBox_doAlterarSenhaForm.AutoSize = true;
-            this.CaracteresEspeciaisCheckBox_doAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.CaracteresEspeciaisCheckBox_doAlterarSenhaForm.ForeColor = System.Drawing.Color.DarkGray;
-            this.CaracteresEspeciaisCheckBox_doAlterarSenhaForm.Location = new System.Drawing.Point(195, 361);
-            this.CaracteresEspeciaisCheckBox_doAlterarSenhaForm.Name = "CaracteresEspeciaisCheckBox_doAlterarSenhaForm";
-            this.CaracteresEspeciaisCheckBox_doAlterarSenhaForm.Size = new System.Drawing.Size(65, 23);
-            this.CaracteresEspeciaisCheckBox_doAlterarSenhaForm.TabIndex = 5;
-            this.CaracteresEspeciaisCheckBox_doAlterarSenhaForm.Text = "@#%";
-            this.CaracteresEspeciaisCheckBox_doAlterarSenhaForm.UseVisualStyleBackColor = true;
+            this.checkBoxCaracteresEspeciais_doAlterarSenhaForm.AutoSize = true;
+            this.checkBoxCaracteresEspeciais_doAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.checkBoxCaracteresEspeciais_doAlterarSenhaForm.ForeColor = System.Drawing.Color.DarkGray;
+            this.checkBoxCaracteresEspeciais_doAlterarSenhaForm.Location = new System.Drawing.Point(195, 361);
+            this.checkBoxCaracteresEspeciais_doAlterarSenhaForm.Name = "checkBoxCaracteresEspeciais_doAlterarSenhaForm";
+            this.checkBoxCaracteresEspeciais_doAlterarSenhaForm.Size = new System.Drawing.Size(65, 23);
+            this.checkBoxCaracteresEspeciais_doAlterarSenhaForm.TabIndex = 5;
+            this.checkBoxCaracteresEspeciais_doAlterarSenhaForm.Tag = "!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_!@#$%&_";
+            this.checkBoxCaracteresEspeciais_doAlterarSenhaForm.Text = "@#%";
+            this.checkBoxCaracteresEspeciais_doAlterarSenhaForm.UseVisualStyleBackColor = true;
             // 
-            // MaiusculasCheckBox_DoAlterarSenhaForm
+            // checkBoxMaiusculas_DoAlterarSenhaForm
             // 
-            this.MaiusculasCheckBox_DoAlterarSenhaForm.AutoSize = true;
-            this.MaiusculasCheckBox_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.MaiusculasCheckBox_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.DarkGray;
-            this.MaiusculasCheckBox_DoAlterarSenhaForm.Location = new System.Drawing.Point(324, 361);
-            this.MaiusculasCheckBox_DoAlterarSenhaForm.Name = "MaiusculasCheckBox_DoAlterarSenhaForm";
-            this.MaiusculasCheckBox_DoAlterarSenhaForm.Size = new System.Drawing.Size(57, 23);
-            this.MaiusculasCheckBox_DoAlterarSenhaForm.TabIndex = 6;
-            this.MaiusculasCheckBox_DoAlterarSenhaForm.Text = "ABC";
-            this.MaiusculasCheckBox_DoAlterarSenhaForm.UseVisualStyleBackColor = true;
+            this.checkBoxMaiusculas_DoAlterarSenhaForm.AutoSize = true;
+            this.checkBoxMaiusculas_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.checkBoxMaiusculas_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.DarkGray;
+            this.checkBoxMaiusculas_DoAlterarSenhaForm.Location = new System.Drawing.Point(324, 361);
+            this.checkBoxMaiusculas_DoAlterarSenhaForm.Name = "checkBoxMaiusculas_DoAlterarSenhaForm";
+            this.checkBoxMaiusculas_DoAlterarSenhaForm.Size = new System.Drawing.Size(57, 23);
+            this.checkBoxMaiusculas_DoAlterarSenhaForm.TabIndex = 6;
+            this.checkBoxMaiusculas_DoAlterarSenhaForm.Tag = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            this.checkBoxMaiusculas_DoAlterarSenhaForm.Text = "ABC";
+            this.checkBoxMaiusculas_DoAlterarSenhaForm.UseVisualStyleBackColor = true;
             // 
-            // MinusculasCheckBox_DoAlterarSenhaForm
+            // checkBoxMinusculas_DoAlterarSenhaForm
             // 
-            this.MinusculasCheckBox_DoAlterarSenhaForm.AutoSize = true;
-            this.MinusculasCheckBox_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.MinusculasCheckBox_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.DarkGray;
-            this.MinusculasCheckBox_DoAlterarSenhaForm.Location = new System.Drawing.Point(450, 361);
-            this.MinusculasCheckBox_DoAlterarSenhaForm.Name = "MinusculasCheckBox_DoAlterarSenhaForm";
-            this.MinusculasCheckBox_DoAlterarSenhaForm.Size = new System.Drawing.Size(53, 23);
-            this.MinusculasCheckBox_DoAlterarSenhaForm.TabIndex = 7;
-            this.MinusculasCheckBox_DoAlterarSenhaForm.Text = "abc";
-            this.MinusculasCheckBox_DoAlterarSenhaForm.UseVisualStyleBackColor = true;
+            this.checkBoxMinusculas_DoAlterarSenhaForm.AutoSize = true;
+            this.checkBoxMinusculas_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.checkBoxMinusculas_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.DarkGray;
+            this.checkBoxMinusculas_DoAlterarSenhaForm.Location = new System.Drawing.Point(450, 361);
+            this.checkBoxMinusculas_DoAlterarSenhaForm.Name = "checkBoxMinusculas_DoAlterarSenhaForm";
+            this.checkBoxMinusculas_DoAlterarSenhaForm.Size = new System.Drawing.Size(53, 23);
+            this.checkBoxMinusculas_DoAlterarSenhaForm.TabIndex = 7;
+            this.checkBoxMinusculas_DoAlterarSenhaForm.Tag = "abcdefghijklmnopqrstuvwxyz";
+            this.checkBoxMinusculas_DoAlterarSenhaForm.Text = "abc";
+            this.checkBoxMinusculas_DoAlterarSenhaForm.UseVisualStyleBackColor = true;
             // 
-            // AlterarSenhaBtn
+            // btnAlterarSenha
             // 
-            this.AlterarSenhaBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(89)))));
-            this.AlterarSenhaBtn.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(89)))));
-            this.AlterarSenhaBtn.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.AlterarSenhaBtn.BorderRadius = 29;
-            this.AlterarSenhaBtn.BorderSize = 0;
-            this.AlterarSenhaBtn.FlatAppearance.BorderSize = 0;
-            this.AlterarSenhaBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AlterarSenhaBtn.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.AlterarSenhaBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.AlterarSenhaBtn.Location = new System.Drawing.Point(83, 291);
-            this.AlterarSenhaBtn.Name = "AlterarSenhaBtn";
-            this.AlterarSenhaBtn.Size = new System.Drawing.Size(108, 29);
-            this.AlterarSenhaBtn.TabIndex = 8;
-            this.AlterarSenhaBtn.Text = "Alterar";
-            this.AlterarSenhaBtn.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.AlterarSenhaBtn.UseVisualStyleBackColor = false;
+            this.btnAlterarSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(89)))));
+            this.btnAlterarSenha.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(89)))));
+            this.btnAlterarSenha.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnAlterarSenha.BorderRadius = 29;
+            this.btnAlterarSenha.BorderSize = 0;
+            this.btnAlterarSenha.Enabled = false;
+            this.btnAlterarSenha.FlatAppearance.BorderSize = 0;
+            this.btnAlterarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlterarSenha.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.btnAlterarSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnAlterarSenha.Location = new System.Drawing.Point(83, 291);
+            this.btnAlterarSenha.Name = "btnAlterarSenha";
+            this.btnAlterarSenha.Size = new System.Drawing.Size(108, 29);
+            this.btnAlterarSenha.TabIndex = 8;
+            this.btnAlterarSenha.Text = "Alterar";
+            this.btnAlterarSenha.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnAlterarSenha.UseVisualStyleBackColor = false;
+            this.btnAlterarSenha.Click += new System.EventHandler(this.btnAlterarSenha_Click);
             // 
-            // GerarSenhaBtn_DoAlterarSenhaForm
+            // btnGerarSenha_DoAlterarSenhaForm
             // 
-            this.GerarSenhaBtn_DoAlterarSenhaForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(89)))));
-            this.GerarSenhaBtn_DoAlterarSenhaForm.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(89)))));
-            this.GerarSenhaBtn_DoAlterarSenhaForm.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.GerarSenhaBtn_DoAlterarSenhaForm.BorderRadius = 29;
-            this.GerarSenhaBtn_DoAlterarSenhaForm.BorderSize = 0;
-            this.GerarSenhaBtn_DoAlterarSenhaForm.FlatAppearance.BorderSize = 0;
-            this.GerarSenhaBtn_DoAlterarSenhaForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GerarSenhaBtn_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.GerarSenhaBtn_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.GerarSenhaBtn_DoAlterarSenhaForm.Location = new System.Drawing.Point(511, 291);
-            this.GerarSenhaBtn_DoAlterarSenhaForm.Name = "GerarSenhaBtn_DoAlterarSenhaForm";
-            this.GerarSenhaBtn_DoAlterarSenhaForm.Size = new System.Drawing.Size(142, 29);
-            this.GerarSenhaBtn_DoAlterarSenhaForm.TabIndex = 9;
-            this.GerarSenhaBtn_DoAlterarSenhaForm.Text = "Gerar Senha";
-            this.GerarSenhaBtn_DoAlterarSenhaForm.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.GerarSenhaBtn_DoAlterarSenhaForm.UseVisualStyleBackColor = false;
+            this.btnGerarSenha_DoAlterarSenhaForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(89)))));
+            this.btnGerarSenha_DoAlterarSenhaForm.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(89)))));
+            this.btnGerarSenha_DoAlterarSenhaForm.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnGerarSenha_DoAlterarSenhaForm.BorderRadius = 29;
+            this.btnGerarSenha_DoAlterarSenhaForm.BorderSize = 0;
+            this.btnGerarSenha_DoAlterarSenhaForm.FlatAppearance.BorderSize = 0;
+            this.btnGerarSenha_DoAlterarSenhaForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGerarSenha_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.btnGerarSenha_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnGerarSenha_DoAlterarSenhaForm.Location = new System.Drawing.Point(511, 291);
+            this.btnGerarSenha_DoAlterarSenhaForm.Name = "btnGerarSenha_DoAlterarSenhaForm";
+            this.btnGerarSenha_DoAlterarSenhaForm.Size = new System.Drawing.Size(142, 29);
+            this.btnGerarSenha_DoAlterarSenhaForm.TabIndex = 9;
+            this.btnGerarSenha_DoAlterarSenhaForm.Text = "Gerar Senha";
+            this.btnGerarSenha_DoAlterarSenhaForm.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnGerarSenha_DoAlterarSenhaForm.UseVisualStyleBackColor = false;
+            this.btnGerarSenha_DoAlterarSenhaForm.Click += new System.EventHandler(this.btnGerarSenha_DoAlterarSenhaForm_Click);
             // 
             // MudarSenhaForm
             // 
@@ -205,15 +214,15 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(81)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(699, 444);
-            this.Controls.Add(this.GerarSenhaBtn_DoAlterarSenhaForm);
-            this.Controls.Add(this.AlterarSenhaBtn);
-            this.Controls.Add(this.MinusculasCheckBox_DoAlterarSenhaForm);
-            this.Controls.Add(this.MaiusculasCheckBox_DoAlterarSenhaForm);
-            this.Controls.Add(this.CaracteresEspeciaisCheckBox_doAlterarSenhaForm);
-            this.Controls.Add(this.MostrarSenhasCheckBox);
-            this.Controls.Add(this.ConfirmarNovaSenhaTxt_DoAlterarSenhaForm);
-            this.Controls.Add(this.NovaSenhaTxt_DoAlterarSenhaForm);
-            this.Controls.Add(this.NomeTxt_DoAlterarSenhaForm);
+            this.Controls.Add(this.btnGerarSenha_DoAlterarSenhaForm);
+            this.Controls.Add(this.btnAlterarSenha);
+            this.Controls.Add(this.checkBoxMinusculas_DoAlterarSenhaForm);
+            this.Controls.Add(this.checkBoxMaiusculas_DoAlterarSenhaForm);
+            this.Controls.Add(this.checkBoxCaracteresEspeciais_doAlterarSenhaForm);
+            this.Controls.Add(this.checkBoxMostrarSenhas_DoFormMudarSenha);
+            this.Controls.Add(this.txtConfirmarNovaSenha_DoAlterarSenhaForm);
+            this.Controls.Add(this.txtNovaSenha_DoAlterarSenhaForm);
+            this.Controls.Add(this.txtNome_DoAlterarSenhaForm);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MudarSenhaForm";
@@ -226,14 +235,14 @@
         #endregion
 
         private Label label1;
-        private PedroControls.PedroTextBox NomeTxt_DoAlterarSenhaForm;
-        private PedroControls.PedroTextBox NovaSenhaTxt_DoAlterarSenhaForm;
-        private PedroControls.PedroTextBox ConfirmarNovaSenhaTxt_DoAlterarSenhaForm;
-        private CheckBox MostrarSenhasCheckBox;
-        private CheckBox CaracteresEspeciaisCheckBox_doAlterarSenhaForm;
-        private CheckBox MaiusculasCheckBox_DoAlterarSenhaForm;
-        private CheckBox MinusculasCheckBox_DoAlterarSenhaForm;
-        private PedroControls.PedroButtom AlterarSenhaBtn;
-        private PedroControls.PedroButtom GerarSenhaBtn_DoAlterarSenhaForm;
+        private PedroControls.PedroTextBox txtNome_DoAlterarSenhaForm;
+        private PedroControls.PedroTextBox txtNovaSenha_DoAlterarSenhaForm;
+        private PedroControls.PedroTextBox txtConfirmarNovaSenha_DoAlterarSenhaForm;
+        private CheckBox checkBoxMostrarSenhas_DoFormMudarSenha;
+        private CheckBox checkBoxCaracteresEspeciais_doAlterarSenhaForm;
+        private CheckBox checkBoxMaiusculas_DoAlterarSenhaForm;
+        private CheckBox checkBoxMinusculas_DoAlterarSenhaForm;
+        private PedroControls.PedroButtom btnAlterarSenha;
+        private PedroControls.PedroButtom btnGerarSenha_DoAlterarSenhaForm;
     }
 }

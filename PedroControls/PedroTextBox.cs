@@ -57,8 +57,8 @@ public partial class PedroTextBox : UserControl
         }
         set
         {
-                isPasswordChar = value;
-                PedroTextBox1.UseSystemPasswordChar = value;       
+            isPasswordChar = value;
+            PedroTextBox1.UseSystemPasswordChar = value;
         }
     
     }
