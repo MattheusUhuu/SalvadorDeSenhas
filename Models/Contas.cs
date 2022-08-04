@@ -35,9 +35,10 @@ public class Contas
         {
             using (StreamWriter sw = File.AppendText(Global.ArquivoTxt))
             {
-                sw.Write(contas.NomeDoSite.ToUpper() + ";");
-                sw.Write(contas.UrlDoSite + ";");
-                sw.WriteLine(contas.Senha);
+
+                sw.Write(contas.NomeDoSite.ToUpper().Trim() + ";");
+                sw.Write(contas.UrlDoSite.Trim() + ";");
+                sw.WriteLine(contas.Senha.Trim());
 
                 return contas;
             }
@@ -92,7 +93,7 @@ public class Contas
                 }
                 else
                 {
-                    contasDoSite.Add(line);
+                    contasDoSite.Add(line.Trim());
                 }
             }
 

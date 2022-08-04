@@ -162,13 +162,13 @@
             this.btnCadastrar_DoFormCadastrar.FlatAppearance.BorderSize = 0;
             this.btnCadastrar_DoFormCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCadastrar_DoFormCadastrar.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.btnCadastrar_DoFormCadastrar.ForeColor = System.Drawing.Color.Black;
+            this.btnCadastrar_DoFormCadastrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnCadastrar_DoFormCadastrar.Location = new System.Drawing.Point(197, 382);
             this.btnCadastrar_DoFormCadastrar.Name = "btnCadastrar_DoFormCadastrar";
             this.btnCadastrar_DoFormCadastrar.Size = new System.Drawing.Size(118, 39);
             this.btnCadastrar_DoFormCadastrar.TabIndex = 7;
             this.btnCadastrar_DoFormCadastrar.Text = "Cadastrar";
-            this.btnCadastrar_DoFormCadastrar.TextColor = System.Drawing.Color.Black;
+            this.btnCadastrar_DoFormCadastrar.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnCadastrar_DoFormCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar_DoFormCadastrar.Click += new System.EventHandler(this.btnCadastrar_DoFormCadastrar_Click);
             // 
@@ -182,13 +182,13 @@
             this.btnGerarSenha_DoFormCadastrar.FlatAppearance.BorderSize = 0;
             this.btnGerarSenha_DoFormCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGerarSenha_DoFormCadastrar.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.btnGerarSenha_DoFormCadastrar.ForeColor = System.Drawing.Color.Black;
+            this.btnGerarSenha_DoFormCadastrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnGerarSenha_DoFormCadastrar.Location = new System.Drawing.Point(363, 382);
             this.btnGerarSenha_DoFormCadastrar.Name = "btnGerarSenha_DoFormCadastrar";
             this.btnGerarSenha_DoFormCadastrar.Size = new System.Drawing.Size(148, 39);
             this.btnGerarSenha_DoFormCadastrar.TabIndex = 8;
             this.btnGerarSenha_DoFormCadastrar.Text = "Gerar Senha";
-            this.btnGerarSenha_DoFormCadastrar.TextColor = System.Drawing.Color.Black;
+            this.btnGerarSenha_DoFormCadastrar.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnGerarSenha_DoFormCadastrar.UseVisualStyleBackColor = false;
             this.btnGerarSenha_DoFormCadastrar.Click += new System.EventHandler(this.btnGerarSenha_DoFormCadastrar_Click);
             // 

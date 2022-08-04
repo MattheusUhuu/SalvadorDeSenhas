@@ -43,12 +43,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(234, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(225, 0, 225, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(225, 42);
+            this.label1.Size = new System.Drawing.Size(227, 44);
             this.label1.TabIndex = 0;
             this.label1.Text = "Alterar Senha";
             // 
@@ -176,11 +177,11 @@
             this.btnAlterarSenha.Enabled = false;
             this.btnAlterarSenha.FlatAppearance.BorderSize = 0;
             this.btnAlterarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterarSenha.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.btnAlterarSenha.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.btnAlterarSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnAlterarSenha.Location = new System.Drawing.Point(83, 291);
+            this.btnAlterarSenha.Location = new System.Drawing.Point(85, 282);
             this.btnAlterarSenha.Name = "btnAlterarSenha";
-            this.btnAlterarSenha.Size = new System.Drawing.Size(108, 29);
+            this.btnAlterarSenha.Size = new System.Drawing.Size(108, 38);
             this.btnAlterarSenha.TabIndex = 8;
             this.btnAlterarSenha.Text = "Alterar";
             this.btnAlterarSenha.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
@@ -196,11 +197,11 @@
             this.btnGerarSenha_DoAlterarSenhaForm.BorderSize = 0;
             this.btnGerarSenha_DoAlterarSenhaForm.FlatAppearance.BorderSize = 0;
             this.btnGerarSenha_DoAlterarSenhaForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGerarSenha_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.btnGerarSenha_DoAlterarSenhaForm.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.btnGerarSenha_DoAlterarSenhaForm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnGerarSenha_DoAlterarSenhaForm.Location = new System.Drawing.Point(511, 291);
+            this.btnGerarSenha_DoAlterarSenhaForm.Location = new System.Drawing.Point(509, 282);
             this.btnGerarSenha_DoAlterarSenhaForm.Name = "btnGerarSenha_DoAlterarSenhaForm";
-            this.btnGerarSenha_DoAlterarSenhaForm.Size = new System.Drawing.Size(142, 29);
+            this.btnGerarSenha_DoAlterarSenhaForm.Size = new System.Drawing.Size(108, 38);
             this.btnGerarSenha_DoAlterarSenhaForm.TabIndex = 9;
             this.btnGerarSenha_DoAlterarSenhaForm.Text = "Gerar Senha";
             this.btnGerarSenha_DoAlterarSenhaForm.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
