@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalvadorDeSenhas", "SalvadorDeSenhas.csproj", "{71CE0031-AB78-4BFF-ACBF-08BAF5987A90}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SalvadorDeSenhasSetupSetup", "..\SalvadorDeSenhasSetupSetup\SalvadorDeSenhasSetupSetup.vdproj", "{BF7965D6-6580-4A58-9C28-2B656126AC8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{71CE0031-AB78-4BFF-ACBF-08BAF5987A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71CE0031-AB78-4BFF-ACBF-08BAF5987A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71CE0031-AB78-4BFF-ACBF-08BAF5987A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7965D6-6580-4A58-9C28-2B656126AC8C}.Debug|Any CPU.ActiveCfg = Debug
+		{BF7965D6-6580-4A58-9C28-2B656126AC8C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
